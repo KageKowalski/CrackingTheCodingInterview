@@ -1,6 +1,7 @@
 #include <iostream>
 #include "is_unique.cpp"
 #include "check_permutation.cpp"
+#include "urlify.cpp"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main(){
 */
 
 // check_permutation driver
-
+/*
 int main(){
 	string s1;
 	string s2;
@@ -30,4 +31,13 @@ int main(){
 
 	return 0;
 };
+*/
 
+// urlify driver
+
+int main(){
+	char str[14] = "a bc  d      ";
+	urlify(str, 14);
+	cout << str << endl;
+	return 0;
+};
